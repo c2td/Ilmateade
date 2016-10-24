@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="@color/colorTodayBg"
+              android:padding="16dp"
+              android:minHeight="200dp"
+              android:gravity="center_vertical">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/list_item_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            tools:text="10. oktoober"/>
+        <TextView
+            android:id="@+id/list_item_high"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="76sp"
+            android:textColor="@android:color/white"
+            tools:text="10C"/>
+        <TextView
+            android:id="@+id/list_item_low"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="36sp"
+            android:textColor="@android:color/white"
+            tools:text="5C"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <ImageView
+            android:id="@+id/list_item_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="16dp"
+            android:src="@mipmap/ic_launcher"/>
+        <TextView
+            android:id="@+id/list_item_phenomenon"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:textColor="@android:color/white"
+            android:text="Clear"
+            tools:text="Clear"/>
+    </LinearLayout>
+
+
+</LinearLayout>

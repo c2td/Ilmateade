@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_location_entries">
+        <item>Harku</item>
+        <item>Jõhvi</item>
+        <item>Tartu</item>
+        <item>Pärnu</item>
+        <item>Kuressaare</item>
+        <item>Türi</item>
+    </string-array>
+</resources>

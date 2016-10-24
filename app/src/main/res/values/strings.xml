@@ -1,0 +1,49 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">Ilmateade</string>
+    <string name="title_activity_detail">Täpsem info</string>
+    <string name="title_activity_settings">Seaded</string>
+    <string name="day">Päev</string>
+    <string name="night">Öö</string>
+
+    <!-- month values -->
+    <string name="month_1">jaanuar</string>
+    <string name="month_2">veebruar</string>
+    <string name="month_3">märts</string>
+    <string name="month_4">aprill</string>
+    <string name="month_5">mai</string>
+    <string name="month_6">juuni</string>
+    <string name="month_7">juuli</string>
+    <string name="month_8">august</string>
+    <string name="month_9">september</string>
+    <string name="month_10">oktoober</string>
+    <string name="month_11">november</string>
+    <string name="month_12">detsember</string>
+
+    <!-- phenomenon values -->
+    <string name="clear">Selge</string>
+    <string name="cloudy">Pilves</string>
+    <string name="clouds">Vahelduv pilvisus</string>
+    <string name="spells">Pilves selgimistega</string>
+    <string name="snow">Lumi</string>
+    <string name="fog">Udu</string>
+    <string name="mist">Uduvine</string>
+    <string name="hail">Rahe</string>
+    <string name="thunder">Äike</string>
+    <string name="thunderstorm">Äikesetorm</string>
+    <string name="rain">Sademed</string>
+
+    <!-- Preferences related strings -->
+    <string name="pref_location_key" translatable="false">location</string>
+    <string name="pref_location_label">Asukoht</string>
+    <string name="pref_location_default" translatable="false">Tartu</string>
+
+    <!-- Temperature formatting -->
+    <string name="format_temperature"><xliff:g id="temp">%1.0f</xliff:g>\u00B0</string>
+
+    <!-- Error message when there is no internet connectivity -->
+    <string name="no_internet_connection">Internetiühendus puudub.</string>
+
+    <!-- Error message when the retrieved xml is empty -->
+    <string name="no_data">Andmed puuduvad.</string>
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="@string/pref_location_key"
+        android:title="@string/pref_location_label"
+        android:entries="@array/pref_location_entries"
+        android:entryValues="@array/pref_location_entries"
+        android:defaultValue="@string/pref_location_default"/>
+</PreferenceScreen>
