@@ -127,10 +127,10 @@ public class Forecast implements Parcelable {
 
     /* Sets the icon depending on phenomenon  value */
     public void setDayIconId(String text) {
-        if (text.contains(SHOWER) || text.contains(RAIN)) {
-            dayIconId = R.drawable.rain;
-        } else if ( text.contains(SLEET) || text.contains(SNOWFALL)) {
+        if (text.contains(SLEET) || text.contains(SNOW)) {
             dayIconId = R.drawable.snow;
+        } else if (text.contains(SHOWER) || text.contains(RAIN)) {
+            dayIconId = R.drawable.rain;
         } else if (text.equalsIgnoreCase(CLEAR)) {
             dayIconId = R.drawable.sun;
         } else if (text.contains(CLOUDS) || text.contains(SPELLS)) {
@@ -146,10 +146,10 @@ public class Forecast implements Parcelable {
 
     /* Sets the icon based on phenomenon  value */
     public void setNightIconId(String text) {
-        if (text.contains(SHOWER) || text.contains(RAIN)) {
-            nightIconId = R.drawable.rain;
-        } else if ( text.contains(SLEET) || text.contains(SNOWFALL)) {
+        if ( text.contains(SLEET) || text.contains(SNOW)) {
             nightIconId = R.drawable.snow;
+        } else if (text.contains(SHOWER) || text.contains(RAIN)) {
+            nightIconId = R.drawable.rain;
         } else if (text.equalsIgnoreCase(CLEAR)) {
             nightIconId = R.drawable.moon;
         } else if (text.contains(CLOUDS) || text.contains(SPELLS)) {
