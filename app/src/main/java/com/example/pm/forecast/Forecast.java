@@ -5,7 +5,7 @@ package com.example.pm.forecast;
 import android.os.Parcel;
 import android.os.Parcelable;
 
-public class Forecast implements Parcelable {
+class Forecast implements Parcelable {
 
     private String date;
     private int dayIconId;
@@ -195,23 +195,23 @@ public class Forecast implements Parcelable {
         String[] dateParts = date.split("-");
         sb.append(dateParts[2]);
         switch (dateParts[1]) {
-            case "1": sb.append(". ").append(MainActivity.resources.getString(R.string.month_1));
+            case "01": sb.append(". ").append(MainActivity.resources.getString(R.string.month_1));
                 break;
-            case "2": sb.append(". ").append(MainActivity.resources.getString(R.string.month_2));
+            case "02": sb.append(". ").append(MainActivity.resources.getString(R.string.month_2));
                 break;
-            case "3": sb.append(". ").append(MainActivity.resources.getString(R.string.month_3));
+            case "03": sb.append(". ").append(MainActivity.resources.getString(R.string.month_3));
                 break;
-            case "4": sb.append(". ").append(MainActivity.resources.getString(R.string.month_4));
+            case "04": sb.append(". ").append(MainActivity.resources.getString(R.string.month_4));
                 break;
-            case "5": sb.append(". ").append(MainActivity.resources.getString(R.string.month_5));
+            case "05": sb.append(". ").append(MainActivity.resources.getString(R.string.month_5));
                 break;
-            case "6": sb.append(". ").append(MainActivity.resources.getString(R.string.month_6));
+            case "06": sb.append(". ").append(MainActivity.resources.getString(R.string.month_6));
                 break;
-            case "7": sb.append(". ").append(MainActivity.resources.getString(R.string.month_7));
+            case "07": sb.append(". ").append(MainActivity.resources.getString(R.string.month_7));
                 break;
-            case "8": sb.append(". ").append(MainActivity.resources.getString(R.string.month_8));
+            case "08": sb.append(". ").append(MainActivity.resources.getString(R.string.month_8));
                 break;
-            case "9": sb.append(". ").append(MainActivity.resources.getString(R.string.month_9));
+            case "09": sb.append(". ").append(MainActivity.resources.getString(R.string.month_9));
                 break;
             case "10": sb.append(". ").append(MainActivity.resources.getString(R.string.month_10));
                 break;
